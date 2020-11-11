@@ -31,6 +31,15 @@ def gaussEleminate():
     isResult = True
     #hesaplanacak matris burada  girileektir
     
+    #hesaplanacak matris bu kısma yazılmalı 
+    #fazladan olan son sütün cevaplar. 
+    #x + 2y + 3z = 1 gibi
+    
+    matrix = [
+        [1,	 2,	 3,	    1],
+        [10, 20, 11,    5],
+        [2, 8, 42,      6],
+    ]
     
     """
     3x3 lük matrisleri çözdü
